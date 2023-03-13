@@ -1,6 +1,6 @@
 # Vefhonnun1
 
-##*Joeseppi*
+## *Joeseppi*
 
 **Fyrsta vef áfnagan mitt**
 
