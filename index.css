@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(198, 198, 198);
+}
+h1, h2{ /* breyta h1 og h2 til body ef langar breyti öllu*/
+    background-color: aqua;/* breyti background lit*/
+    color: red; /* breti texti lit*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+.haus1{ /* bjó til class með punktur*/
+    background-color: blueviolet;
+    color: black;
+}
+
+.haus2{
+    background-color: aqua;
+    color: brown;
+    border: 10cm; /*border en virka ekki*/
+    border-color: black;
+}
+
+.bigman{
+    color: blue;
+    font-size: xx-large; /* breyta stærð*/
+}
