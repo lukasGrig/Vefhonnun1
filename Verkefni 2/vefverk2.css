@@ -18,10 +18,13 @@ pre{
 }
 .dott{
     font-size: x-large;
+    font-style: italic;
     color: blueviolet;
+    font-weight: 900;
 }
 em{
     color: aqua;
+    text-decoration: underline;
 }
 a:hover{
     color: blueviolet;
@@ -30,4 +33,8 @@ a:hover{
 a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(35, 17, 136);
+}
+
+.red{
+    color: red;
 }
