@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(139, 167, 189);
+    max-width: 1280px;
+    border: 3px solid red;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;  
+}
+.dott{
+    font-size: x-large;
+    font-style: italic;
+    color: blue;
+    font-weight: 400;
+}
+a:hover{
+    color: blueviolet;
+    background-color: rgb(110, 168, 168);
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 6, 97);
+    text-decoration: none;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: purple;
+}
+.col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* dont need the bottom to add grids*/
+}
+.col-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.col-2, .col-3, .col-4{
+    gap: 0.5cm;
+    row-gap: 0.2em;
+    border: 1px solid red;
+}
+footer{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+header{
+    width: auto;
+    border: 2px solid purple;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%
+}
+nav{
+    border: 3px solid brown;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 115%;
+    margin: 0px 5px 15px 5px;
+}
+.as1{
+    grid-area: as1;
+}
+.as2{
+    grid-area: as2;
+}
+.texti{
+    grid-area: texti;
+}
+main{
+    display: grid;
+    grid-template-areas: "as1""as2""texti";
+}
+/*@media screen and (min-width:48em) { /* media og svo min width*/
+    /*.col-2 {
+    /*grid-template-columns: 1fr 1fr;      /* 2 dálkar 50%*/
+    
