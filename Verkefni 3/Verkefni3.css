@@ -28,9 +28,12 @@ a:active{
 a:visited{
     color: purple;
 }
+strong{
+    font-size: larger;
+}
 .col-2{
     display: grid;
-    grid-template-columns: 1fr 1fr; /* dont need the bottom to add grids*/
+    grid-template-columns: 1fr 1fr;
 }
 .col-3{
     display: grid;
@@ -71,18 +74,20 @@ ul{
 }
 .as1{
     grid-area: as1;
+    font-size: 120%;
 }
 .as2{
     grid-area: as2;
+    font-size: 120%;
 }
 .texti{
     grid-area: texti;
+    border: 1px solid blue;
+    font-weight: 700;
 }
 main{
     display: grid;
-    grid-template-areas: "as1""as2""texti";
+    grid-template-areas: "as1 texti as2";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
 }
-/*@media screen and (min-width:48em) { /* media og svo min width*/
-    /*.col-2 {
-    /*grid-template-columns: 1fr 1fr;      /* 2 dálkar 50%*/
-    
