@@ -53,6 +53,8 @@ ul{
 }
 header{
     font-size: 200%;
+    background-color: rgb(111, 213, 215);
+    border: 1px solid darkblue;
 }
 .header1{
     display: grid;
@@ -74,6 +76,7 @@ header{
     font-weight: 400;
 }
 main{
+    background-color: rgb(88, 155, 155);
     display: grid;
     grid-template-areas: "as1 texti as2";
     grid-template-columns: 1fr 1fr 1fr;
@@ -86,6 +89,7 @@ footer{
     border: 1px solid black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    background-color: rgb(117, 129, 172);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 11px;
@@ -151,6 +155,12 @@ section{
     }
     .header1{
         grid-template-columns: 1fr 1fr;
-        font-size: 250%;
+        font-size: 200%;
     }
+}
+@media screen and (min-width: 960px) {
+    header, .header1, footer, main, .col-2, .col-3, .col-4, .as1, .as2, .texti, ul{
+        text-align: center;
+    }
+    
 }
