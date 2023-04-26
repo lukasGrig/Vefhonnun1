@@ -52,13 +52,16 @@ footer{
     grid-gap: 5px;
 }
 @media screen and (min-width:0em){
-    .images, img, section{
+    .images, img, section,footer{
     grid-template-columns: 1fr;
     }
 }
 @media screen and (min-width:37.5em){
     .images, img, section{
         grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media screen and (min-width:48em){
