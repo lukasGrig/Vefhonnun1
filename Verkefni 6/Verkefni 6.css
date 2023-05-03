@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@200&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@200&family=Roboto+Slab:wght@200&family=Sigmar&display=swap');
+
 body{
     background-color: rgb(139, 167, 189);
     max-width: 1280px;
@@ -7,7 +12,11 @@ body{
     margin-right: auto;
     margin-top: 10px;
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
+    font-family: Roboto Slab;
     color: rgb(53, 25, 214);
 }
 a:hover{
@@ -25,28 +34,80 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
     border: 2px solid blue;
     text-align: center;
+    grid-gap: 5px;
 }
-header{
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+div{
+    font-family: "Comme";
+}
+nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 2px solid darkblue;
     text-align: center;
+    grid-gap: 5px;
 }
 h1{
+    font-family: "Bebas Neue";
     text-align: center;
     font-size: 350%;
 }
-@media screen and(min-width:0px) {
-    footer{
+h2{
+    font-family: Sigmar;
+    font-size: 130%;
+    font-weight: 60%;
+}
+iframe{
+    margin-top: 10px;
+    border: 5px solid darkblue;
+}
+.byrjun{
+    background-color: rgb(76, 118, 241);
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 90%;
+}
+@media screen and (min-width:0px) {
+    nav, footer{
+        grid-template-columns: 1fr;
+    }
+    h1{
+        font-size: 200%;
+    }
+    h2{
+        font-size: 130%;
+    }
+    section{
         grid-template-columns: 1fr;
     }
 }
 @media screen and (min-width:600px) {
-
+    nav{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media screen and (min-width:768px){
-    footer{
+    footer, nav{
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    h1{
+        font-size: 350%;
+    }
+    h2{
+        font-size: 180%;
+    }
+    section{
+        grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (min-width: 960px) {
