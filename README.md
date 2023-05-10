@@ -8,3 +8,6 @@ Joeseppi er efnishöfundur sem gerir myndbönd um hluti í raunveruleikanum eins
 
 
 ***Lukas Grigaliunas***
+
+kikja síðasta vefsíðan með línkar til aðra vefsíðar
+https://lukasgrig.github.io/Vefhonnun1/Verkefni%207/Verkefni%207.html
